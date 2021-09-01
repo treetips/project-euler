@@ -17,6 +17,7 @@ mod p016;
 mod p017;
 mod p020;
 mod p021;
+mod p022;
 mod p029;
 mod util;
 
