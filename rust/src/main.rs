@@ -20,6 +20,7 @@ mod p021;
 mod p022;
 mod p025;
 mod p029;
+mod p030;
 mod util;
 
 fn main() {
