@@ -1,4 +1,4 @@
-# Project Euluer for Rust
+# Project Euler for Rust
 
 ## Usage
 
