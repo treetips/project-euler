@@ -5,6 +5,7 @@
 | Language | Link           |
 | -------- | -------------- |
 | Rust     | [Link](./rust) |
+| Java     | [Link](./java) |
 
 ## Documents
 
