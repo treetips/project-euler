@@ -18,17 +18,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 class P001 {
 
-  private static int p001(int max) {
+  private static int answer(int max) {
     return IntStream.range(1, max).filter(i -> i % 3 == 0 || i % 5 == 0).sum();
   }
 
   @Test
   void テスト1() {
-    assertEquals(23, p001(10));
+    assertEquals(23, answer(10));
   }
 
   @Test
   void テスト2() {
-    assertEquals(233168, p001(1000));
+    assertEquals(233168, answer(1000));
   }
 }

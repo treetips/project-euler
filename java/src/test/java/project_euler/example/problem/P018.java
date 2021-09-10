@@ -9,15 +9,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * <pre>
  * 以下の三角形の頂点から下の行の隣接する数字を通って下まで移動するとき, その数値の和の最大値は23になる.
- * 
+ *
  * 3
  * 7 4
  * 2 4 6
  * 8 5 9 3
  * この例では 3 + 7 + 4 + 9 = 23.
- * 
+ *
  * 以下の三角形を頂点から下まで移動するとき, その最大の和を求めよ.
- * 
+ *
  * 75
  * 95 64
  * 17 47 82
@@ -63,7 +63,7 @@ public class P018 {
     {4, 62, 98, 27, 23, 9, 70, 98, 73, 93, 38, 53, 60, 4, 23},
   };
 
-  private static int p003(int[][] triangle) {
+  private static int answer(int[][] triangle) {
     for (int row = triangle.length - 2; 0 <= row; row--) {
       for (int col = 0; col < triangle[row].length; col++) {
         triangle[row][col] += Math.max(triangle[row + 1][col], triangle[row + 1][col + 1]);
@@ -74,11 +74,11 @@ public class P018 {
 
   @Test
   void テスト1() {
-    assertEquals(23, p003(GROUP1));
+    assertEquals(23, answer(GROUP1));
   }
 
   @Test
   void テスト2() {
-    assertEquals(1074, p003(GROUP2));
+    assertEquals(1074, answer(GROUP2));
   }
 }

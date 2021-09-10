@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  *
  * <pre>
  * 上の 20×20 の格子のうち, 斜めに並んだ4つの数字が赤くマークされている.
- * 
+ *
  * 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
  * 49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00
  * 81 49 31 73 55 79 14 29 93 71 40 67 53 88 30 03 49 13 36 65
@@ -31,7 +31,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
  * 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
  * それらの数字の積は 26 × 63 × 78 × 14 = 1788696 となる.
- * 
+ *
  * 上の 20×20 の格子のうち, 上下左右斜めのいずれかの方向で連続する4つの数字の積のうち最大のものはいくつか?
  * </pre>
  *
@@ -62,7 +62,7 @@ public class P011 {
     {1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48},
   };
 
-  private static int p003(int consecutive) {
+  private static int answer(int consecutive) {
     int max = -1;
     for (int row = 0; row < TABLE.length; row++) {
       for (int col = 0; col < TABLE[row].length; col++) {
@@ -99,6 +99,6 @@ public class P011 {
 
   @Test
   void テスト1() {
-    assertEquals(70600674, p003(4));
+    assertEquals(70600674, answer(4));
   }
 }

@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 class P002 {
 
-  private static int p002(int max) {
+  private static int answer(int max) {
     var result = 2;
     var prevprev = 1;
     var prev = 2;
@@ -40,11 +40,11 @@ class P002 {
 
   @Test
   void テスト1() {
-    assertEquals(44, p002(89));
+    assertEquals(44, answer(89));
   }
 
   @Test
   void テスト2() {
-    assertEquals(4613732, p002(4000000));
+    assertEquals(4613732, answer(4000000));
   }
 }

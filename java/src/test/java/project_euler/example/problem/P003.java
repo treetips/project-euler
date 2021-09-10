@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class P003 {
 
-  private static long p003(long max) {
+  private static long answer(long max) {
     // 逆順ループして最初にヒットしたものが最大値
     for (long i = (long) Math.sqrt((double) max); i >= 0; i--) {
       // 約数かどうか
@@ -34,11 +34,11 @@ public class P003 {
 
   @Test
   void テスト1() {
-    assertEquals(29, p003(13195L));
+    assertEquals(29, answer(13195L));
   }
 
   @Test
   void テスト2() {
-    assertEquals(6857, p003(600851475143L));
+    assertEquals(6857, answer(600851475143L));
   }
 }
