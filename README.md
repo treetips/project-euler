@@ -2,10 +2,11 @@
 
 プロジェクト・オイラーの練習リポジトリです。
 
-| Language | Link           |
-| -------- | -------------- |
-| Rust     | [Link](./rust) |
-| Java     | [Link](./java) |
+| Language   | Link                 |
+| ---------- | -------------------- |
+| Rust       | [Link](./rust)       |
+| Java       | [Link](./java)       |
+| TypeScript | [Link](./typescript) |
 
 ## Documents
 
