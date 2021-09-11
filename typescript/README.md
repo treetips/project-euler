@@ -21,7 +21,7 @@ npm i
 | 002        | 偶数のフィボナッチ数     | [Link](./src/problems/p002.test.ts) |
 | 003        | 最大の素因数             | [Link](./src/problems/p003.test.ts) |
 | 004        | 最大の回文積             | [Link](./src/problems/p004.test.ts) |
-| 005        | 最小の倍数               | -                                   |
+| 005        | 最小の倍数               | [Link](./src/problems/p005.test.ts) |
 | 006        | 二乗和の差               | -                                   |
 | 007        | 10001 番目の素数         | -                                   |
 | 008        | 数字列中の最大の積       | -                                   |
