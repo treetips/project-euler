@@ -18,14 +18,12 @@ fn problem_020(n: u128) -> u128 {
   for i in 1..n {
     divide = divide.mul(BigDecimal::from_u128(n - i).unwrap());
   }
-  let result = divide
+  divide
     .to_string()
     .chars()
     .into_iter()
     .map(|v| v.to_string().parse::<u128>().unwrap())
-    .sum();
-  println!("result=[{}]", result);
-  result
+    .sum()
 }
 
 #[cfg(test)]

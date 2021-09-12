@@ -8,9 +8,7 @@ use crate::util::get_palindrome;
 /// では, 3桁の数の積で表される回文数の最大値を求めよ。
 /// ```
 fn problem_004(digits: u64) -> u64 {
-  let result = get_palindrome(digits);
-  println!("result=[{}]", result);
-  result
+  get_palindrome(digits)
 }
 
 #[cfg(test)]

@@ -32,8 +32,6 @@ fn problem_019() -> u32 {
     }
     datetime = NaiveDate::from_ymd(year, month, datetime.day());
   }
-
-  println!("result=[{}]", result);
   result
 }
 

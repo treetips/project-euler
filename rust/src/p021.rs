@@ -19,7 +19,6 @@ fn problem_021(n: u128) -> u128 {
       result += i;
     }
   }
-  println!("result=[{}]", result);
   result
 }
 

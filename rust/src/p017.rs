@@ -21,7 +21,6 @@ fn problem_017(max: u128) -> usize {
   for i in 1..=max as usize {
     result += to_english(i).len()
   }
-  println!("result=[{}]", result);
   result
 }
 

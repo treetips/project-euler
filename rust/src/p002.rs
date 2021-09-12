@@ -23,7 +23,6 @@ fn problem_002(to: u32) -> u32 {
       break;
     }
   }
-  println!("result=[{}]", result);
   result
 }
 

@@ -25,9 +25,7 @@ fn problem_029(min: u128, max: u128) -> usize {
       values.insert(pow(a, b));
     }
   }
-  let result = values.len();
-  println!("result=[{}]", result);
-  result
+  values.len()
 }
 
 #[cfg(test)]

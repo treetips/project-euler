@@ -34,7 +34,6 @@ fn problem_014(min: u128, max: u128) -> u128 {
       }
     }
   }
-  println!("result=[{}]", result);
   result
 }
 

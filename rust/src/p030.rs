@@ -28,7 +28,6 @@ fn problem_030(min: u32, exponent: u32) -> u32 {
       result += sum;
     }
   }
-  println!("result=[{}]", result);
   result
 }
 

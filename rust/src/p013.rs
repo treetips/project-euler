@@ -214,9 +214,7 @@ fn problem_013(digit: usize) -> u64 {
     .map(|s| BigDecimal::from_str(s).unwrap())
     .sum::<BigDecimal>();
   let head = &sum.to_string()[..digit];
-  let result = head.parse::<u64>().unwrap();
-  println!("result=[{}]", result);
-  result
+  head.parse::<u64>().unwrap()
 }
 
 #[cfg(test)]

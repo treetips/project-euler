@@ -18,7 +18,6 @@ fn problem_007(number: u64) -> u64 {
       break;
     }
   }
-  println!("result=[{}]", result);
   result
 }
 

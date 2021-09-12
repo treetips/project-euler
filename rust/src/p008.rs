@@ -43,10 +43,7 @@ fn problem_008(number: &str, digit: usize) -> u64 {
       sums.push(block_sum);
     }
   }
-  let result = sums.into_iter().max().unwrap();
-
-  println!("result=[{}]", result);
-  result
+  sums.into_iter().max().unwrap()
 }
 
 #[cfg(test)]

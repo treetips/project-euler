@@ -34,8 +34,6 @@ fn problem_005_2(min: u64, max: u64) -> u64 {
   for num in min..=max {
     result = lcm(result, num);
   }
-
-  println!("result=[{}]", result);
   result
 }
 

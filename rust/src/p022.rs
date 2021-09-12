@@ -5187,7 +5187,6 @@ fn problem_022() -> usize {
     let score = get_score(&alphabets, word) * (i + 1);
     result += score;
   }
-  println!("result=[{}]", result);
   result
 }
 

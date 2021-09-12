@@ -26,8 +26,6 @@ fn problem_009(sum: u64) -> u64 {
       }
     }
   }
-
-  println!("result=[{}]", result);
   result
 }
 

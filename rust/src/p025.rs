@@ -37,7 +37,6 @@ fn problem_025(digit: usize) -> String {
     prevprev = prev;
     prev = next;
   }
-  println!("result=[{}]", result);
   result.to_string()
 }
 

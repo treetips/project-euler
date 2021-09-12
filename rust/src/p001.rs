@@ -5,9 +5,7 @@
 /// 同じようにして, 1000 未満の 3 か 5 の倍数になっている数字の合計を求めよ。
 /// ```
 fn problem_001(from: u64, to: u64) -> u64 {
-  let ret = (from..to).filter(|num| num % 3 == 0 || num % 5 == 0).sum();
-  println!("result=[{}]", ret);
-  ret
+  (from..to).filter(|num| num % 3 == 0 || num % 5 == 0).sum()
 }
 
 #[cfg(test)]

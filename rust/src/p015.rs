@@ -39,9 +39,7 @@ fn problem_015(x: u128, y: u128) -> String {
     denominator = denominator.mul(BigDecimal::from_u128(i).unwrap());
   }
 
-  let result = numerator.div(denominator).to_string();
-  println!("result=[{}]", result);
-  result
+  numerator.div(denominator).to_string()
 }
 
 #[cfg(test)]

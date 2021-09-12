@@ -14,8 +14,6 @@ fn problem_010(max: u64) -> u64 {
       continue;
     }
   }
-
-  println!("result=[{}]", result);
   result
 }
 

@@ -11,13 +11,11 @@ use crate::util::pow;
 /// ```
 fn problem_016(exponent: u128) -> u64 {
   let num_str = pow(2, exponent).to_string();
-  let result = num_str
+  num_str
     .chars()
     .into_iter()
     .map(|s| s.to_string().parse::<u64>().unwrap())
-    .sum::<u64>();
-  println!("result=[{}]", result);
-  result
+    .sum::<u64>()
 }
 
 #[cfg(test)]

@@ -9,11 +9,9 @@
 /// ## Note
 /// [1,2] の場合、二乗の和 = 1*1 + 2*2 = 5、和の二乗 = (1+2) * (1+2) = 9。100%和の二乗の方が大きい。
 fn problem_006(max: u64) -> u64 {
-  let ret1 = (1..=max).map(|num| num.pow(2)).sum::<u64>();
-  let ret2 = (1..=max).sum::<u64>().pow(2);
-  let result = ret2 - ret1;
-  println!("result=[{}]", result);
-  result
+  let left = (1..=max).map(|num| num.pow(2)).sum::<u64>();
+  let right = (1..=max).sum::<u64>().pow(2);
+  right - left
 }
 
 #[cfg(test)]

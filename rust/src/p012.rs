@@ -39,7 +39,6 @@ fn problem_012(max_divisor_number: u64) -> u64 {
       }
     }
   }
-  println!("result=[{}]", result);
   result
 }
 

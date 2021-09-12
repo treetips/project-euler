@@ -96,9 +96,7 @@ fn problem_018(value_str: &str) -> u32 {
     }
   }
   // 三角形の下から上に向かって加算し続け、頂点に合計値が設定される
-  let result = triangle[0][0];
-  println!("result=[{}]", result);
-  result
+  triangle[0][0]
 }
 
 #[cfg(test)]

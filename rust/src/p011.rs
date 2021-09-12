@@ -75,9 +75,7 @@ fn problem_011(consecutive: isize) -> isize {
       max = cmp::max(multiply_cells(&table, row, col, -1, 1, consecutive), max);
     }
   }
-  let result = max;
-  println!("result=[{}]", result);
-  result
+  max
 }
 
 fn multiply_cells(
