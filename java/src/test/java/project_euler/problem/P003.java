@@ -1,7 +1,7 @@
-package project_euler.example.problem;
+package project_euler.problem;
 
 import org.junit.jupiter.api.Test;
-import project_euler.example.util.MathUtil;
+import project_euler.util.MathUtil;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

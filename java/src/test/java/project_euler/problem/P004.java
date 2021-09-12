@@ -1,4 +1,4 @@
-package project_euler.example.problem;
+package project_euler.problem;
 
 import org.junit.jupiter.api.Test;
 

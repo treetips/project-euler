@@ -1,4 +1,4 @@
-package project_euler.example.util;
+package project_euler.util;
 
 /**
  * 計算ユーティリティー
