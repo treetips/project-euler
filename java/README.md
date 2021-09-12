@@ -21,7 +21,7 @@ open ./build/reports/tests/test/index.html
 | 003        | 最大の素因数         | [Link](./src/test/java/project_euler/example/problem/P003.java) |
 | 004        | 最大の回文積         | [Link](./src/test/java/project_euler/example/problem/P004.java) |
 | 005        | 最小の倍数           | [Link](./src/test/java/project_euler/example/problem/P005.java) |
-| 006        | 二乗和の差           | -                                                               |
+| 006        | 二乗和の差           | [Link](./src/test/java/project_euler/example/problem/P006.java) |
 | 007        | 10001 番目の素数     | -                                                               |
 | 008        | 数字列中の最大の積   | -                                                               |
 | 009        | 特別なピタゴラス数   | -                                                               |
