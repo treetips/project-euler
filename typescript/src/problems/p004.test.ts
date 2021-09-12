@@ -1,5 +1,6 @@
 /**
  * # [Problem 4 「最大の回文積」](http://odz.sakura.ne.jp/projecteuler/?Problem+4)
+ * ## Description
  * ```
  * 左右どちらから読んでも同じ値になる数を回文数という. 2桁の数の積で表される回文数のうち, 最大のものは 9009 = 91 × 99 である.
  *

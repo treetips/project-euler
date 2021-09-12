@@ -2,6 +2,7 @@ import { isPrimeNumber } from "../libs";
 
 /**
  * # [Problem 3 「最大の素因数」](http://odz.sakura.ne.jp/projecteuler/?Problem+3)
+ * ## Description
  * ```
  * 13195 の素因数は 5, 7, 13, 29 である.
  *

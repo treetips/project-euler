@@ -1,5 +1,6 @@
 /**
  * # [Problem 7 「10001番目の素数」 ](http://odz.sakura.ne.jp/projecteuler/?Problem+7)
+ * ## Description
  * ```
  * 素数を小さい方から6つ並べると 2, 3, 5, 7, 11, 13 であり, 6番目の素数は 13 である.
  *

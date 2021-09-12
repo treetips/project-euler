@@ -1,6 +1,7 @@
 import { rangeClosed } from "../libs";
 /**
  * # [Problem 6 「二乗和の差」](http://odz.sakura.ne.jp/projecteuler/?Problem+6)
+ * ## Description
  * ```
  * 最初の10個の自然数について, その二乗の和は,
  *

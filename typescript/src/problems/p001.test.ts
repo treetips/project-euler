@@ -2,6 +2,7 @@ import { range } from "../libs";
 
 /**
  * # [Problem 1 「3と5の倍数」](http://odz.sakura.ne.jp/projecteuler/?Problem+1)
+ * ## Description
  * ```
  * 10未満の自然数のうち, 3 もしくは 5 の倍数になっているものは 3, 5, 6, 9 の4つがあり, これらの合計は 23 になる.
  *

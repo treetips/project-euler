@@ -1,5 +1,6 @@
 /**
  * # [Problem 5 「最小の倍数」](http://odz.sakura.ne.jp/projecteuler/?Problem+5)
+ * ## Description
  * ```
  * 2520 は 1 から 10 の数字の全ての整数で割り切れる数字であり, そのような数字の中では最小の値である.
  *

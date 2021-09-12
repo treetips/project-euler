@@ -1,5 +1,6 @@
 /**
  * # [Problem 2 「偶数のフィボナッチ数」](http://odz.sakura.ne.jp/projecteuler/?Problem+2)
+ * ## Description
  * ```
  * フィボナッチ数列の項は前の2つの項の和である. 最初の2項を 1, 2 とすれば, 最初の10項は以下の通りである.
  *
