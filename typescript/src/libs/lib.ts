@@ -1,12 +1,23 @@
 /**
  * [1..10] といったrangeを生成する
- * @param start インデックス開始値
- * @param end インデックス終了値
+ * @param start インデックス開始値（以上）
+ * @param end インデックス終了値（未満）
  * @param step ステップ値
  */
 export function* range(start: number, end: number, step = 1) {
   if (end === undefined) [end, start] = [start, 0];
   for (let n = start; n < end; n += step) yield n;
+}
+
+/**
+ * [1..10] といったrangeを生成する
+ * @param start インデックス開始値（以上）
+ * @param end インデックス終了値（以下）
+ * @param step ステップ値
+ */
+export function* rangeClosed(start: number, end: number, step = 1) {
+  if (end === undefined) [end, start] = [start, 0];
+  for (let n = start; n <= end; n += step) yield n;
 }
 
 /**
