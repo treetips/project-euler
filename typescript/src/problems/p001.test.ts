@@ -9,11 +9,9 @@ import { range } from "../libs";
  * ```
  */
 export const answer = (min: number, max: number): number => {
-  const result = [...range(min, max)]
+  return [...range(min, max)]
     .filter((num) => num % 3 === 0 || num % 5 === 0)
     .reduce((sum: number, current: number) => sum + current);
-  console.log(`result[${result}]`);
-  return result;
 };
 
 test(`テスト1`, () => expect(answer(0, 10)).toBe(23));

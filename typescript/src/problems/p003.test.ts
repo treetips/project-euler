@@ -16,7 +16,6 @@ export const answer = (value: number): number => {
       break;
     }
   }
-  console.log(`result[${result}]`);
   return result;
 };
 

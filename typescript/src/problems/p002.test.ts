@@ -27,8 +27,6 @@ export const answer = (max: number): number => {
       break;
     }
   }
-
-  console.log(`result[${result}]`);
   return result;
 };
 

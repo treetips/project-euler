@@ -14,7 +14,6 @@ export const answer = (min: number, max: number): number => {
       break;
     }
   }
-  console.log(`result[${result}]`);
   return result;
 };
 
