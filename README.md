@@ -25,7 +25,7 @@
 | 004 | 最大の回文積             | [Link](./rust/src/p004.rs) | [Link](./java/src/test/java/project_euler/problem/P004.java) | [Link](./typescript//src/problems/p004.test.ts) |
 | 005 | 最小の倍数               | [Link](./rust/src/p005.rs) | [Link](./java/src/test/java/project_euler/problem/P005.java) | [Link](./typescript//src/problems/p005.test.ts) |
 | 006 | 二乗和の差               | [Link](./rust/src/p006.rs) | [Link](./java/src/test/java/project_euler/problem/P006.java) | [Link](./typescript//src/problems/p006.test.ts) |
-| 007 | 10001 番目の素数         | [Link](./rust/src/p007.rs) | -                                                            | -                                               |
+| 007 | 10001 番目の素数         | [Link](./rust/src/p007.rs) | [Link](./java/src/test/java/project_euler/problem/P007.java) | [Link](./typescript//src/problems/p007.test.ts) |
 | 008 | 数字列中の最大の積       | [Link](./rust/src/p008.rs) | -                                                            | -                                               |
 | 009 | 特別なピタゴラス数       | [Link](./rust/src/p009.rs) | -                                                            | -                                               |
 | 010 | 素数の和                 | [Link](./rust/src/p010.rs) | -                                                            | -                                               |
