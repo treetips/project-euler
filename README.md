@@ -28,7 +28,7 @@
 | 007 | 10001 番目の素数         | [Link](./rust/src/p007.rs) | [Link](./java/src/test/java/project_euler/problem/P007.java) | [Link](./typescript//src/problems/p007.test.ts) |
 | 008 | 数字列中の最大の積       | [Link](./rust/src/p008.rs) | [Link](./java/src/test/java/project_euler/problem/P008.java) | [Link](./typescript//src/problems/p008.test.ts) |
 | 009 | 特別なピタゴラス数       | [Link](./rust/src/p009.rs) | [Link](./java/src/test/java/project_euler/problem/P009.java) | [Link](./typescript//src/problems/p009.test.ts) |
-| 010 | 素数の和                 | [Link](./rust/src/p010.rs) | -                                                            | -                                               |
+| 010 | 素数の和                 | [Link](./rust/src/p010.rs) | [Link](./java/src/test/java/project_euler/problem/P010.java) | [Link](./typescript//src/problems/p010.test.ts) |
 | 011 | 格子内の最大の積         | [Link](./rust/src/p011.rs) | [Link](./java/src/test/java/project_euler/problem/P011.java) | -                                               |
 | 012 | 高度整除三角数           | [Link](./rust/src/p012.rs) | -                                                            | -                                               |
 | 013 | 大きな数の足し算         | [Link](./rust/src/p013.rs) | -                                                            | -                                               |
