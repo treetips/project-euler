@@ -25,7 +25,7 @@
 | 003 | 最大の素因数             | [Link](./rust/src/p003.rs) | [Link](./java/src/test/java/project_euler/problem/P003.java) | [Link](./typescript//src/problems/p003.test.ts) | [Link](./csharp/project-euler/Test/P003.cs) |
 | 004 | 最大の回文積             | [Link](./rust/src/p004.rs) | [Link](./java/src/test/java/project_euler/problem/P004.java) | [Link](./typescript//src/problems/p004.test.ts) | [Link](./csharp/project-euler/Test/P004.cs) |
 | 005 | 最小の倍数               | [Link](./rust/src/p005.rs) | [Link](./java/src/test/java/project_euler/problem/P005.java) | [Link](./typescript//src/problems/p005.test.ts) | [Link](./csharp/project-euler/Test/P005.cs) |
-| 006 | 二乗和の差               | [Link](./rust/src/p006.rs) | [Link](./java/src/test/java/project_euler/problem/P006.java) | [Link](./typescript//src/problems/p006.test.ts) | -                                           |
+| 006 | 二乗和の差               | [Link](./rust/src/p006.rs) | [Link](./java/src/test/java/project_euler/problem/P006.java) | [Link](./typescript//src/problems/p006.test.ts) | [Link](./csharp/project-euler/Test/P006.cs) |
 | 007 | 10001 番目の素数         | [Link](./rust/src/p007.rs) | [Link](./java/src/test/java/project_euler/problem/P007.java) | [Link](./typescript//src/problems/p007.test.ts) | -                                           |
 | 008 | 数字列中の最大の積       | [Link](./rust/src/p008.rs) | [Link](./java/src/test/java/project_euler/problem/P008.java) | [Link](./typescript//src/problems/p008.test.ts) | -                                           |
 | 009 | 特別なピタゴラス数       | [Link](./rust/src/p009.rs) | [Link](./java/src/test/java/project_euler/problem/P009.java) | [Link](./typescript//src/problems/p009.test.ts) | -                                           |
