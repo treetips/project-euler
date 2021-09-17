@@ -52,6 +52,7 @@
         <Compile Include="Test\P007.cs" />
         <Compile Include="Test\P008.cs" />
         <Compile Include="Test\P009.cs" />
+        <Compile Include="Test\P010.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include=".editorconfig" />
